@@ -1,6 +1,10 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+Todo app is a check list for todo items such as assignments, chores, etc.
+
+Items can have a due date added and once completed can be checked off.
+
+Also tasks can be deleted.
 
 ## Functionality
 
@@ -8,10 +12,10 @@ Give a more detailed explanation of the project and its functionality.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+VS code, HTML, CSS, JavaScript, GitHub
 
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+-
