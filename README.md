@@ -18,4 +18,4 @@ VS code, HTML, CSS, JavaScript, GitHub
 
 This project is deployed on GitHub Pages:
 
--
+-https://github.com/Yess-R/se_project_todo-app
