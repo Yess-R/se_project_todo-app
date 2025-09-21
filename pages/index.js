@@ -9,7 +9,7 @@ const addTodoButton = document.querySelector(".button_action_add");
 const addTodoPopup = document.querySelector("#add-todo-popup");
 const addTodoForm = addTodoPopup.querySelector(".popup__form");
 const addTodoCloseBtn = addTodoPopup.querySelector(".popup__close");
-
+const closeTodoPopup = document.querySelector(".page__content");
 const todosList = document.querySelector(".todos__list");
 
 const openModal = (modal) => {
@@ -29,6 +29,14 @@ const generateTodo = (data) => {
 
 addTodoButton.addEventListener("click", () => {
   openModal(addTodoPopup);
+});
+
+closeTodoPopup.addEventListener("keydown", (evt) => {
+  console.log("I'm here");
+  if (evt.key === "Escape") {
+    const modal = document.querySelector(".popup_visible");
+    closeModal(modal);
+  }
 });
 
 addTodoCloseBtn.addEventListener("click", () => {

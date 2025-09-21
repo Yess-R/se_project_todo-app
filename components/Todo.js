@@ -4,7 +4,7 @@ class Todo {
     this._templateElement = document.querySelector(selector);
   }
 
-  _setEventListener() {
+  _setEventListeners() {
     this._todoDeleteBtn.addEventListener("click", () => {
       this._todoElement.remove();
     });
@@ -49,7 +49,7 @@ class Todo {
 
     this._generateDueDate();
     this._generateCheckboxEl();
-    this._setEventListener();
+    this._setEventListeners();
 
     return this._todoElement;
   }
